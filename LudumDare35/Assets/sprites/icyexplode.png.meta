@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 085783caf14209643a38f8ca41b2a6f1
+timeCreated: 1460844499
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: icyexplode_0
+    21300002: icyexplode_1
+    21300004: icyexplode_2
+    21300006: icyexplode_3
+    21300008: icyexplode_4
+    21300010: icyexplode_5
+    21300012: icyexplode_6
+    21300014: icyexplode_9
+    21300016: icyexplode_17
+    21300018: icyexplode_26
+    21300020: icyexplode_27
+    21300022: icyexplode_29
+    21300024: icyexplode_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: icyexplode_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 16
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icyexplode_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 12
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icyexplode_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 9
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icyexplode_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 7
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icyexplode_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 19}
+        - {x: -19.5, y: 19}
+        - {x: -19.5, y: -12}
+        - {x: -13.5, y: -19}
+        - {x: 17.5, y: -19}
+        - {x: 19.5, y: -13}
+        - {x: 19.5, y: 12}
+        - {x: 18.5, y: 14}
+    - name: icyexplode_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 3
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 18}
+        - {x: -18.5, y: -12}
+        - {x: -14.5, y: -18}
+        - {x: 18.5, y: -18}
+        - {x: 18.5, y: 18}
+    - name: icyexplode_6
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 4
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 17.5}
+        - {x: -18.5, y: 15.5}
+        - {x: -18.5, y: -7.5}
+        - {x: -17.5, y: -14.5}
+        - {x: -13.5, y: -17.5}
+        - {x: 18.5, y: -17.5}
+        - {x: 18.5, y: 17.5}
+    - name: icyexplode_9
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 6
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 16}
+        - {x: -16.5, y: -13}
+        - {x: -14.5, y: -16}
+        - {x: 16.5, y: -16}
+        - {x: 16.5, y: 15}
+        - {x: 15.5, y: 16}
+    - name: icyexplode_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 6
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icyexplode_26
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 8
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icyexplode_27
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 8
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icyexplode_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 5
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -18, y: 13}
+        - {x: -18, y: -10}
+        - {x: -15, y: -16}
+        - {x: -11, y: -17}
+        - {x: 18, y: -17}
+        - {x: 18, y: 15}
+        - {x: 17, y: 17}
+    - name: icyexplode_7
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 7
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,7 +11,7 @@ public class Projectile : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         if (secondsAfterDestroy > 0f)
-            StartCoroutine("destroyAfterFew");
+            StartCoroutine(destroyAfterFew());
         animator = gameObject.GetComponent<Animator>();
 	}
 
@@ -19,30 +19,30 @@ public class Projectile : MonoBehaviour {
     {
         Ennemy hitted = coll.gameObject.GetComponent<Ennemy>();
 
-        Destroy(gameObject.GetComponent<Rigidbody2D>());
+        DestroyObject(gameObject.GetComponent<Rigidbody2D>());
         if (hitted != null)
         {
             hitted.hitPoints -= damages;
         }
-        StartCoroutine("destroyAnimated");
+        StartCoroutine(destroyAnimated());
     }
 
-    IEnumerator destroyAnimated()
+    public IEnumerator destroyAnimated()
     {
         if (onDestroy != null && animator != null)
         {
             animator.SetBool("Dead", true);
-            Destroy(gameObject.GetComponent<Collider2D>());
-            yield return new WaitForSeconds(onDestroy.averageDuration);
+            DestroyObject(gameObject.GetComponent<Collider2D>());
+            yield return new WaitForSeconds(onDestroy.length);
         }
         else
             yield return new WaitForSeconds(0.05f);
-        Destroy(gameObject);
+        DestroyImmediate(gameObject);
     }
 
-    IEnumerator destroyAfterFew()
+    public IEnumerator destroyAfterFew()
     {
         yield return new WaitForSeconds(secondsAfterDestroy);
-        StartCoroutine("destroyAnimated");
+        StartCoroutine(destroyAnimated());
     }
 }

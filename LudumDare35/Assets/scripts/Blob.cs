@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Blob : MonoBehaviour {
 
-    public GameObject fireball;
     public float metamorphRate = 0.5f;
     public float speed = 2f;
     public float jumpStrength = 2f;
@@ -83,5 +82,11 @@ public class Blob : MonoBehaviour {
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, transform.localScale.y * 0.55f + 0.1f, LayerMask.GetMask("Ground"));
         return (hit.rigidbody != null);
+    }
+
+    void OnCollisionEnter2d(Collider2D collider)
+    {
+        if (collider.gameObject.tag == "spike")
+            hitPoints = 0;
     }
 }

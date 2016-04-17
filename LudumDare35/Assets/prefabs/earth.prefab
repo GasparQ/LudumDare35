@@ -9,7 +9,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 488518}
   - 212: {fileID: 21273472}
-  - 61: {fileID: 6178792}
   - 50: {fileID: 5097390}
   m_Layer: 9
   m_Name: earth
@@ -47,20 +46,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!61 &6178792
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 160344}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.37, y: 0.37}
 --- !u!212 &21273472
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -86,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: e681cb70009dafd42b4d799584abc3c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

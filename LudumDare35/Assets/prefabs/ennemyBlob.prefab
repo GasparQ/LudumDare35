@@ -13,7 +13,7 @@ GameObject:
   - 61: {fileID: 6122920}
   - 114: {fileID: 11486662}
   - 95: {fileID: 9552434}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ennemyBlob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ MonoBehaviour:
   direction: {x: -1, y: 0}
   maxX: 2
   minX: -2
-  damages: 0
+  damages: 1
   dyingAnimation: {fileID: 7400000, guid: 0a676f504e3d46a45acc7239ec2e677e, type: 2}
 --- !u!212 &21257228
 SpriteRenderer:

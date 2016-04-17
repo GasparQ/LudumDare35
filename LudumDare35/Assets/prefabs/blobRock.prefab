@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c8ab15c5f37ae43901c81920f8735a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shoot: {fileID: 117260, guid: a9e68f7d43403484db22e813010878e9, type: 2}
+  shoot: {fileID: 177934, guid: a9e68f7d43403484db22e813010878e9, type: 2}
   shootSpeed: 400
   positionDecal: {x: 1, y: 1}
   forceDirection: {x: 0, y: -1}

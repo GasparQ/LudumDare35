@@ -4,6 +4,8 @@ using System.Collections;
 public class EnnemySpawner : MonoBehaviour {
     public int Capacity = -1;
     public GameObject model;
+    public float maxX = 0f;
+    public float minX = 0f;
     private GameObject ennemy = null;
 
 	// Use this for initialization
@@ -18,7 +20,8 @@ public class EnnemySpawner : MonoBehaviour {
             if (Capacity > 0)
                 Capacity -= 1;
             ennemy = Instantiate(model, transform.position, transform.rotation) as GameObject;
+            ennemy.GetComponent<Ennemy>().maxX = maxX;
+            ennemy.GetComponent<Ennemy>().minX= minX;
         }
-        Debug.Log(ennemy.name);
 	}
 }

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class IceCube : MonoBehaviour {
 
-    private GameObject ennemyToSave;
+    public GameObject ennemyToSave;
 
     public void SetEnnemy(GameObject ennemy)
     {
@@ -12,6 +12,7 @@ public class IceCube : MonoBehaviour {
 
     public GameObject GetEnnemy()
     {
+        ennemyToSave.transform.position = transform.position;
         return (ennemyToSave);
     }
 }

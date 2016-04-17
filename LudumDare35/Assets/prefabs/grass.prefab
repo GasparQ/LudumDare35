@@ -10,7 +10,6 @@ GameObject:
   - 4: {fileID: 422282}
   - 212: {fileID: 21253122}
   - 50: {fileID: 5091818}
-  - 61: {fileID: 6173262}
   m_Layer: 9
   m_Name: grass
   m_TagString: ground
@@ -47,20 +46,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!61 &6173262
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 170068}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.37, y: 0.37}
 --- !u!212 &21253122
 SpriteRenderer:
   m_ObjectHideFlags: 1

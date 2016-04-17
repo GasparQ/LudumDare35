@@ -7,7 +7,7 @@ public class Ennemy : MonoBehaviour {
     public Vector2 direction = Vector2.left;
     public float maxX;
     public float minX;
-    public int damages;
+    public int damages = 1;
     public AnimationClip dyingAnimation;
     private Vector3 veryFirstPos;
     private bool dead = false;
@@ -47,7 +47,9 @@ public class Ennemy : MonoBehaviour {
         if (dyingAnimation != null)
         {
             animator.SetBool("Dead", true);
-            yield return new WaitForSeconds(dyingAnimation.averageDuration);
+            Destroy(gameObject.GetComponent<Collider2D>());
+            Destroy(gameObject.GetComponent<Rigidbody2D>());
+            yield return new WaitForSeconds(dyingAnimation.length);
         }
         Destroy(gameObject);
     }

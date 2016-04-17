@@ -58,9 +58,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c8ab15c5f37ae43901c81920f8735a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shoot: {fileID: 173430, guid: 0e8e9c53bc950704c94419d9c567cb6e, type: 2}
+  shoot: {fileID: 127670, guid: 0e8e9c53bc950704c94419d9c567cb6e, type: 2}
   shootSpeed: 1000
-  positionDecal: {x: 1, y: -0.2}
+  positionDecal: {x: 0.2, y: -0.2}
   forceDirection: {x: 1, y: 0}
 --- !u!212 &21231558
 SpriteRenderer:

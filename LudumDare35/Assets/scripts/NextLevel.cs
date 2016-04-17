@@ -6,8 +6,15 @@ public class NextLevel : MonoBehaviour {
 
     public string nextLevelName;
 
-    void OnTriggerEnter2d(Collider2D collider)
+    void Update()
     {
-        SceneManager.LoadScene(nextLevelName);
+        RaycastHit2D hitted = Physics2D.Raycast(transform.position, Vector2.up, transform.localScale.y, LayerMask.GetMask("Player"));
+
+        Debug.DrawRay(transform.position, Vector2.up * transform.localScale.y);
+
+        if (hitted.rigidbody != null)
+        {
+            SceneManager.LoadScene(nextLevelName);
+        }
     }
 }

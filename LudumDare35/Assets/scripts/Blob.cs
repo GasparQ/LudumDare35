@@ -84,7 +84,7 @@ public class Blob : MonoBehaviour {
         return (hit.rigidbody != null);
     }
 
-    void OnCollisionEnter2d(Collider2D collider)
+	void OnCollisionEnter2D(Collision2D collider)
     {
         if (collider.gameObject.tag == "spike")
             hitPoints = 0;
